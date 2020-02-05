@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "homes",
+  "info": {
+    "name": "home",
+    "description": "Home section of the site. Change Title and sub title."
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sub-title": {
+      "type": "string"
+    },
+    "bg-img": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

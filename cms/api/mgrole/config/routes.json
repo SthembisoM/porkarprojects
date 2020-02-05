@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mgroles",
+      "handler": "Mgrole.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mgroles/count",
+      "handler": "Mgrole.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mgroles/:id",
+      "handler": "Mgrole.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mgroles",
+      "handler": "Mgrole.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mgroles/:id",
+      "handler": "Mgrole.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mgroles/:id",
+      "handler": "Mgrole.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

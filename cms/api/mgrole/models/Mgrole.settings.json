@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "mgroles",
+  "info": {
+    "name": "mgrole",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "mg-role": {
+      "type": "string"
+    },
+    "mg-image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

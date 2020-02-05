@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "contactuses",
+  "info": {
+    "name": "contactus",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "address": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "office": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    }
+  }
+}

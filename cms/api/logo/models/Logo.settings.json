@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "logos",
+  "info": {
+    "name": "logo",
+    "description": "Insert Logo and favicon here"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "favicon": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

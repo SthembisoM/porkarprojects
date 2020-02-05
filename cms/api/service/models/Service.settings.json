@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "services",
+  "info": {
+    "name": "service",
+    "description": "Lists services"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "service": {
+      "type": "string"
+    }
+  }
+}

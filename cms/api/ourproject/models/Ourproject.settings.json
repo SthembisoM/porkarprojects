@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "ourprojects",
+  "info": {
+    "name": "ourproject",
+    "description": "Project associates "
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "pr-title": {
+      "type": "string"
+    },
+    "pr-image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

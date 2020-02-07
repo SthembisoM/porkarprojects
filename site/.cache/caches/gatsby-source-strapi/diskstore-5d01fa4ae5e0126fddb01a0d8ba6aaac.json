@@ -1,0 +1,1 @@
+{"expireTime":9007200835480159000,"key":"create-remote-file-node-http://localhost:1337/uploads/cdddde02ac71405789771491d73d3e47.png","val":{"vary":"Origin","content-length":"775","last-modified":"Fri, 31 Jan 2020 15:44:21 GMT","cache-control":"max-age=60","content-type":"image/png","x-powered-by":"Strapi <strapi.io>","date":"Mon, 03 Feb 2020 14:12:48 GMT","connection":"close"}}

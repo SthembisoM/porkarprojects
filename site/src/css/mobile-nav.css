@@ -1,0 +1,54 @@
+nav.mobile {
+	opacity: 0.8;
+	position: fixed;
+	width: 100%;
+	background-color: #000;
+	display: none;
+	z-index: 1;
+}
+
+nav.mobile ul {
+	float: left !important;
+}
+
+nav.mobile li {
+	text-decoration: none;
+	list-style: none;
+	padding: 5px 15px;
+	color: #fff !important;
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+a#bt-toggle img {
+	width: 45px;
+	cursor: pointer;
+}
+
+a#bt-toggle {
+	cursor: pointer;
+}
+
+.hide {
+	opacity: 0;
+	display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+	nav.desktop {
+		display: none;
+	}
+
+	nav.mobile {
+		display: flex;
+	}
+	.navbar-toggler.toggler-example {
+		float: right;
+		padding: 0;
+	}
+}

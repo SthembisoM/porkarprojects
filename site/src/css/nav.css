@@ -1,0 +1,85 @@
+nav.desktop {
+	height: 80px;
+	display: flex;
+	position: fixed;
+	max-width: 1140px;
+	width: 100%;
+	z-index: 999;
+}
+
+nav.desktop ul {
+	display: flex;
+	float: right;
+}
+
+nav.desktop .menu {
+	position: absolute;
+	right: 0;
+}
+
+nav.desktop div.menu > ul > li {
+	padding: 35px 15px;
+	text-decoration: none;
+	list-style: none;
+	font-weight: normal;
+	transition: all 0.4s ease-in-out;
+	text-transform: uppercase;
+}
+
+nav.desktop div.menu > ul > li > a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 0.8rem;
+	transition: all 0.4s ease-in-out;
+	cursor: pointer;
+}
+
+nav.desktop div.menu > ul > li > a:hover {
+	color: cornflowerblue;
+}
+
+header {
+	display: none !important;
+}
+
+.logo {
+	width: 300px;
+	padding: 25px;
+	transition: all 0.4s ease-in-out;
+}
+
+.head {
+	transition: all 0.3s ease;
+}
+
+.head.scrolled {
+	background-color: #000 !important;
+	transition: all 2s opacity ease;
+	opacity: 0.8;
+}
+
+.head {
+	width: 100%;
+	height: 100px;
+	position: fixed;
+}
+.head.scrolled {
+	height: 60px;
+}
+
+nav.desktop.head.scrolled div.menu > ul > li {
+	padding: 15px 15px;
+}
+
+.head.scrolled .logo {
+	padding: 5px 25px;
+}
+
+.head.container-fluid {
+	width: 100%;
+	max-width: 100%;
+}
+
+.head ul {
+	padding-right: 20px;
+}

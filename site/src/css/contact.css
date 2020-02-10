@@ -1,0 +1,84 @@
+.details {
+	margin-top: 80px;
+}
+
+#contact h3 {
+	/* font-weight: bold; */
+	text-decoration: underline;
+}
+
+#contact h1 {
+	/* font-weight: bold; */
+}
+
+input {
+	border: none;
+}
+
+input[type=text],
+input[type=email] {
+	border-bottom: solid #000 2px;
+	padding-top: 30px;
+	width: 100%;
+	transition: all 0.4s ease-in-out;
+}
+
+form .row:nth-child(1) .col-md-6:nth-child(1) input:hover {
+	border-bottom: solid 2px rgba(5, 200, 161, 1);
+}
+
+form .row:nth-child(1) .col-md-6:nth-child(2) input:hover {
+	border-bottom: solid 2px rgba(255, 64, 64, 1);
+}
+
+form .row:nth-child(2) .col-md-6:nth-child(1) input:hover {
+	border-bottom: solid 2px rgba(180, 90, 212, 1);
+}
+
+form .row:nth-child(2) .col-md-6:nth-child(2) input:hover {
+	border-bottom: solid 2px rgba(26, 45, 243, 1);
+}
+
+form .row:nth-child(3) input:hover {
+	border-bottom: solid 2px rgba(255, 92, 239, 1);
+}
+
+form .row {
+	margin-bottom: 50px;
+}
+
+form span {
+	margin-bottom: 20px;
+}
+
+.mg {
+	margin-bottom: 60px;
+}
+
+#contact p {
+	line-height: 25px;
+	margin-bottom: .5rem;
+}
+
+.mt {
+	margin-top: 60px;
+}
+
+label span {
+	text-transform: uppercase;
+	font-size: 14px;
+	transform: translateY(-20px);
+}
+
+label:hover {
+	transform: translateY(40px);
+}
+
+label {
+	transform: translateY(60px);
+	transition: all 0.4s ease-in-out;
+}
+
+#contact .btn:hover {
+	color: royalblue;
+}

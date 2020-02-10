@@ -1,0 +1,74 @@
+.float-r {
+	float: right;
+	text-align: right;
+}
+
+.float-l {
+	float: left;
+	text-align: left;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+}
+
+footer .address p {
+	text-align: right;
+	line-height: 0px;
+}
+
+footer nav {
+	display: block;
+}
+
+footer .container {
+	padding-top: 40px;
+}
+
+footer .logo {
+	padding-right: 0 !important;
+	padding-top: 0 !important;
+}
+
+footer .logo .gatsby-image-wrapper {
+	float: right;
+}
+
+footer .address,
+footer .logo {
+	display: table;
+	float: right;
+}
+
+footer ul li {
+	line-height: 10px;
+}
+
+footer li a {
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+}
+
+footer li a:hover {
+	text-decoration: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+	footer .address,
+	footer .logo {
+		display: table;
+		float: left;
+	}
+
+	footer .address p {
+		text-align: left;
+	}
+
+	footer .logo .gatsby-image-wrapper {
+		float: left;
+		margin-top: 40px;
+	}
+}

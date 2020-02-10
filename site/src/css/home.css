@@ -1,0 +1,95 @@
+body {
+	font-family: 'Noto Sans';
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: normal;
+}
+
+#home h1 {
+	font-size: 4rem;
+}
+
+#home p {
+	font-size: 2rem;
+}
+#home {
+	height: 100vh;
+	background-image: url('http://localhost:8000//static/d9987373f501a0925227cfab8280686c/ee06e/5a8ce7927526762ad7bd6b76b70944c1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: center;
+	color: #fff;
+	text-align: center;
+}
+
+.home-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #000;
+	opacity: 0.5;
+	transition: background-color 0.5s;
+}
+
+.home-text {
+	max-width: 960px;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+@media only screen and (max-width: 440px) {
+	.home-text {
+		top: 25%;
+	}
+
+	#home h1 {
+		font-size: 2.8rem;
+	}
+
+	#home p {
+		font-size: 1.4rem;
+	}
+}
+
+@media only screen and (max-width: 820px) {
+	.home-text {
+		top: 25%;
+	}
+
+	#home h1 {
+		font-size: 2.8rem;
+	}
+
+	#home p {
+		font-size: 1.4rem;
+	}
+
+	#home {
+		background-position-x: center;
+	}
+}
+
+@media only screen and (max-width: 820px) and (height: 1024px) {
+	#home {
+		height: 50vh;
+	}
+
+	.hover {
+		height: 50vh;
+	}
+}

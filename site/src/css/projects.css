@@ -1,0 +1,15 @@
+#project ul li {
+	list-style: none;
+}
+
+#project .image picture img {
+	width: 65% !important;
+	height: 65% !important;
+}
+
+@media only screen and (max-width: 440px) {
+	#project .image picture img {
+		left: 50% !important;
+		transform: translateX(-50%);
+	}
+}

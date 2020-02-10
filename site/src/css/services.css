@@ -1,0 +1,23 @@
+ul {
+	display: contents;
+}
+
+#services {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul {
+	list-style-image: url('../images/circle.png');
+	list-style: none;
+}
+td {
+	border: none;
+}
+
+@media only screen and (max-width: 767px) {
+	#services {
+		width: 100%;
+	}
+}
